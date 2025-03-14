@@ -124,7 +124,7 @@ Breaking Changes
 - Add `Filecoin` EVM configs
 - Updated Osmosis testnet to `osmosis-6` that points to `osmo-test-5`
 - add all current active chains (as of May 12 2023) to the `supported-chains-list` file
-- fix issue in generated deposit addresses for `wrap` transactions, addresses https://github.com/axelarnetwork/axelarjs-sdk/issues/267
+- fix issue in generated deposit addresses for `wrap` transactions, addresses https://github.com/strobe-protocol/axelarjs-sdk/issues/267
 
 ## [0.12.6] - 2023-MARCH-30
 
@@ -176,7 +176,7 @@ Breaking Changes
   2. merged `getDepositAddressForNativeUnwrap` and `getDepositAddressForNativeWrap` method functionality into `getDepositAddress` method
 - upgrade axelarjs-types dependency to `v0.27.0`
 - update default axelar rpc & lcd endpoints in testnet/mainnet from quickapi to imperator
-- fix [native gas estimates](https://github.com/axelarnetwork/axelarjs-sdk/pull/193)
+- fix [native gas estimates](https://github.com/strobe-protocol/axelarjs-sdk/pull/193)
 
 ## [0.11.7] - 2022-OCTOBER-26
 
@@ -264,8 +264,8 @@ Breaking Changes
 
 ### Changed
 
-- add `getAssetConfigFromDenom`: https://github.com/axelarnetwork/axelarjs-sdk/pull/124
-- fix `getTransferFee` and `getFeeForChainAndAsset` in `AxelarQueryAPI` to accept RPC endpoint override: https://github.com/axelarnetwork/axelarjs-sdk/issues/141
+- add `getAssetConfigFromDenom`: https://github.com/strobe-protocol/axelarjs-sdk/pull/124
+- fix `getTransferFee` and `getFeeForChainAndAsset` in `AxelarQueryAPI` to accept RPC endpoint override: https://github.com/strobe-protocol/axelarjs-sdk/issues/141
 
 ## [0.8.0] - 2022-AUGUST-12
 
@@ -296,5 +296,5 @@ changelog vs. 0.6.x. changelogs prior to 0.7.0 were not systematically captured,
 
 ### Fixed
 
-- Rest fetch error. resolves https://github.com/axelarnetwork/axelarjs-sdk/issues/127
-- Optimized build size. resolves https://github.com/axelarnetwork/axelarjs-sdk/issues/116
+- Rest fetch error. resolves https://github.com/strobe-protocol/axelarjs-sdk/issues/127
+- Optimized build size. resolves https://github.com/strobe-protocol/axelarjs-sdk/issues/116

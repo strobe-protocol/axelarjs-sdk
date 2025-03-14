@@ -8,10 +8,10 @@ The package can be installed into your dApp as a project dependency with:
 
 ```bash
 # npm
-npm i @axelar-network/axelarjs-sdk
+npm i @strobe-protocol/axelarjs-sdk
 
 # or yarn
-yarn add @axelar-network/axelarjs-sdk
+yarn add @strobe-protocol/axelarjs-sdk
 ```
 
 For full SDK docs, please visit: https://docs.axelar.dev/dev/axelarjs-sdk/intro
