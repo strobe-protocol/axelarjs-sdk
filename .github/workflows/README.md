@@ -37,6 +37,6 @@ Note that we may not want to increase major version soon, so the keyword to do t
 
 Bump alpha version in specified branch and publish it to npm
 
-**Trigger events**: Manually trigger in [Actions](https://github.com/axelarnetwork/axelarjs-sdk/actions).
+**Trigger events**: Manually trigger in [Actions](https://github.com/strobe-protocol/axelarjs-sdk/actions).
 
 **Effect**: Bump the alpha version -> commit and push updated version in `package.json` -> publish to npm

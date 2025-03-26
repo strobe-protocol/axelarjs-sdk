@@ -1,10 +1,10 @@
 {
-  "name": "@axelar-network/axelarjs-sdk",
-  "version": "0.17.2",
+  "name": "@strobe-protocol/axelarjs-sdk",
+  "version": "0.17.3",
   "description": "The JavaScript SDK for Axelar Network",
   "repository": {
     "type": "git",
-    "url": "https://github.com/axelarnetwork/axelarjs-sdk"
+    "url": "https://github.com/strobe-protocol/axelarjs-sdk"
   },
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",

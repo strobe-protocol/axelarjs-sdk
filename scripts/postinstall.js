@@ -80,8 +80,8 @@ async function main() {
       return;
     }
 
-    const releaseUrl = `https://github.com/axelarnetwork/axelarjs-sdk/releases/tag/v${latest}`;
-    const changelogUrl = `https://github.com/axelarnetwork/axelarjs-sdk/blob/v${latest}/CHANGELOG.md`;
+    const releaseUrl = `https://github.com/strobe-protocol/axelarjs-sdk/releases/tag/v${latest}`;
+    const changelogUrl = `https://github.com/strobe-protocol/axelarjs-sdk/blob/v${latest}/CHANGELOG.md`;
 
     const updateLine = chalk.bold(
       `📦 Update available! ${chalk.red(version)} → ${chalk.green(latest)}`
